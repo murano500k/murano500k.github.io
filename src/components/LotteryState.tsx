@@ -1,5 +1,5 @@
 import { useLotteryState, useLotteryBalance, useLotteryTimeStamp, useLotteryCounter, useRecentWinner, usePlayers } from "../hooks"
-import { makeStyles, List, ListItem, ListItemText, ListItemButton } from "@material-ui/core"
+import { makeStyles } from "@material-ui/core"
 import { useLotteryDuration } from "../hooks/useLotteryDuration"
 import { BigNumber } from "@ethersproject/bignumber"
 import { usePlayersCount } from "../hooks/usePlayersCount"
@@ -52,18 +52,7 @@ export const LotteryState = () => {
             <h2 className={classes.subtitle}> last updated {timstampForHumans}</h2>
             <h2 className={classes.subtitle}> Lottery duration is {lotteryDuration} seconds</h2>
             <h2 className={classes.subtitle}> Lottery players ({playersCount}): {players} </h2>
-            <List>
-                <ListItem disablePadding>
-                    <ListItemButton>
-                        <ListItemText primary="Trash" />
-                    </ListItemButton>
-                </ListItem>
-                <ListItem disablePadding>
-                    <ListItemButton component="a" href="#simple-list">
-                        <ListItemText primary="Spam" />
-                    </ListItemButton>
-                </ListItem>
-            </List>
+
         </>)
 }
 
