@@ -1,0 +1,72 @@
+{
+  "contracts": {
+    "APIConsumer": "2a42303c9d8ec7d4bbd6f9b43b908789e97d4a50",
+    "ArtemLottery": "c3f31ea9363580b5f0fc4936a7aea71a7096f38a",
+    "ArtemToken": "3845d39fd9ee434f2840cec86f0b35edfad6a031",
+    "Counter": "9dca2c77c7ffef2fd70be0e91afddd1f0d3a3d65",
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "MockOracle": "7f09d8b642ed1af8d9a3e094ab619f25db4db23c",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "OpenZeppelin/openzeppelin-contracts@4.3.2/ERC20": "5c27d7156fdbfe889902cc167df697405a50ad20",
+    "PriceFeedConsumer": "4a767194a033a6ce3f88d654cc6ebd727a1e92a3",
+    "VRFConsumer": "6d5c31c9fdd5955f186b51a6b2463251806e3e53",
+    "VRFCoordinatorMock": "a234e721cab3c47e532d8404949512e63f344855",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/BufferChainlink": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/CBORChainlink": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/Chainlink": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/ChainlinkClient": "750a107dfd09b0702b5ae03a4b6ea3c8b73190e1",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/SafeMathChainlink": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/VRFRequestIDBase": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a"
+  },
+  "tests": {
+    "tests/test_api_consumer.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".s",
+      "sha1": "cda5c782505fab02f542f98222a0c087f62365d4",
+      "txhash": []
+    },
+    "tests/test_keeper.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "29918e19b4dbede6d230ccc42644c4f813d74051",
+      "txhash": []
+    },
+    "tests/test_lottery_integration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "sss",
+      "sha1": "c608de5d2c2ef019256c6b0353df6781082479a8",
+      "txhash": []
+    },
+    "tests/test_lottery_unit.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "......",
+      "sha1": "8a877191afe3d379396d63c2f8be670ba54f7c20",
+      "txhash": [
+        "6142ac31e29d0223b840386030d5652e340ba7bb"
+      ]
+    },
+    "tests/test_price_feeds.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "8bb1e4a4f6ddc1a3e9f49413d32ecd47f91e96ce",
+      "txhash": []
+    },
+    "tests/test_vrf.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..s",
+      "sha1": "d904e136828eaa3731ca6be4d60a262d7b6a7993",
+      "txhash": []
+    }
+  },
+  "tx": {
+    "6142ac31e29d0223b840386030d5652e340ba7bb": {}
+  }
+}
